@@ -19,10 +19,10 @@ def send_email(sub, message, reciever_email, smtp_server, smtp_port, my_email, m
 
 sub = "Test Email"
 message = "This is a test email sent using Python."
-reciever_email = "prasadprasadgadekar@gmail.com"
+reciever_email = "Reciever Email"
 smtp_server = "smtp.gmail.com"  
 smtp_port = 587  
-my_email = "pashugdkr1@gmail.com"
-my_password = "mdrn xhcr vdhq ylrt"  
+my_email = "Sender Email"
+my_password = "Your App Password"  
 
 send_email(sub, message, reciever_email, smtp_server, smtp_port, my_email, my_password)
